@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.welcome{
+    height: 420px;
+    max-width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/cropped-wallpaper-18356501.jpg);
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.welcome > ul {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    line-height: 2.5;
+    background-color: black;
+}
+
+.welcome li {
+    float:left;
+    margin:auto;
+    padding:0;
+    background-color:black;
+}
+
+.welcome li a {
+    display:block;
+    width:100px;
+    color:white;
+    text-decoration:none;
+    padding:5px;
+}
+
+.welcome ul li ul {
+    display:none;
+}
+
+.welcome ul li:hover ul {
+    display:block;
+}
+
+.welcome li:hover ul li {
+    float:none;
+}
+
+.prog-bar > ul{
+    margin-top: 0;
+    display: flex;
+    background-color: grey;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+.prog-bar > ul > li {
+    padding-left: 20px;
+    line-height: 2;
+}
+
+ul a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.suite {
+    color: #ffa36d;
+}
+
+.suite:hover {
+    font-weight: bold;
+}
+
+a:hover{
+    color: #ffa36d !important;
+}
+
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    min-height: 80vh;
+    box-shadow: 1px 1px 100px #555;
+}
+
+hr {
+    color: #ffa36d;
+    width: 6em;
+}
+
+.d-flex {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+p {
+    padding: 30px 50px 20px;
+}
+
+#intro {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+.titre-programmes {
+    padding-top: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #232323;
+    color: white;
+    height: 150px;
+}
+
+#icon {
+    display:flex;
+    justify-content: space-around;
+}
+
+i {
+    color: grey;
+}
+
+form {
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+}
+
+figure {
+    margin: 0 auto;
+}
+
+button {
+    margin-top: 30px;
+}
+
+#never {
+    width: 40%;
+    display: block;
+    margin: 100px auto 0px;
+}
+

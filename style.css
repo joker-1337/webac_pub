@@ -13,6 +13,7 @@ body {
 ul {
     list-style: none;
     margin-bottom: 0;
+    padding-left: 10px;
     margin-top: 0;
 }
 
@@ -32,11 +33,9 @@ ul {
 }
 
 .welcome li a {
-    display:block;
     width:100px;
     color:white;
     text-decoration:none;
-    padding:5px;
 }
 
 .welcome ul li ul {
@@ -57,11 +56,6 @@ ul {
     background-color: grey;
     justify-content: flex-start;
     height: 40px;
-}
-
-.prog-bar > ul > li {
-    padding-left: 20px;
-    line-height: 2;
 }
 
 ul a {
